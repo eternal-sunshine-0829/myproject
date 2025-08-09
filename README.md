@@ -32,6 +32,6 @@
 <img width="2281" height="442" alt="image" src="https://github.com/user-attachments/assets/9474963a-88a9-41ea-bc7e-f075e97b7014" />
 
 - 抗鲁棒性测试结果如下图：
-  <img width="1754" height="767" alt="image" src="https://github.com/user-attachments/assets/c4afa36d-495b-4d0f-8ac1-3b2f2b8039d9" />
+<img width="1043" height="724" alt="image" src="https://github.com/user-attachments/assets/a435f7ab-30ec-4f43-a0a8-96c471de9b3d" />
   
 - 结果分析表格如下：
