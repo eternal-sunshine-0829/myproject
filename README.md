@@ -28,5 +28,5 @@
 | **分散嵌入**      | 全局低频系数分布             | 水印比特分散在图像所有8x8块的低频系数中，避免集中存储                       | 局部破坏、区域删除         |
 | **自适应强度**    | `alpha`参数（默认0.25）      | 动态调整水印嵌入强度，平衡不可见性和鲁棒性                                 | 对比度调整、亮度变化       |
 
--原始图像，添加水印后的图像，采取四种攻击（rotate,cut,contrast,crop）得到的图像如下所示：
+- 原始图像，添加水印后的图像，采取四种攻击（rotate,cut,contrast,crop）得到的图像如下所示：
 <img width="2281" height="442" alt="image" src="https://github.com/user-attachments/assets/9474963a-88a9-41ea-bc7e-f075e97b7014" />
