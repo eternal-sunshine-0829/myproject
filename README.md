@@ -5,6 +5,7 @@
 - sm4未优化，使用T-table优化sm4，使用T-table优化sm4三者测试得到时间如下图：
   <img width="1280" height="694" alt="image" src="https://github.com/user-attachments/assets/1fdb0677-64f7-4c34-bbf8-904a4e5b7fa9" />
 - 结果分析表格如下：
+  
 |                | sm4未优化 | T-table优化sm4 | AESNI优化sm4 |
 |----------------|----------|---------------|---------------|
 | 平均耗时       | 875ns    | 670ns         | 4326ns        |
