@@ -85,7 +85,7 @@
 <img width="600" height="344" alt="5a74fed9ea130615793bbd1263efef8b" src="https://github.com/user-attachments/assets/c564ffa3-ea2f-46dc-93cb-cba1a5e2b1d5" />
 
 #### b）：基于sm3的实现，验证length-extension attack（❌ 未完成）
-#### c）：基于sm3的实现，根据RFC6962构建Merkle树（10w叶子节点），并构建叶子的存在性证明和不存在性证明（❌ 未完成）
+#### c）：基于sm3的实现，根据RFC6962构建Merkle树（10w叶子节点），并构建叶子的存在性证明和不存在性证明（❌ 未完成）<br><br>
 
 ## Project 5: SM2的软件实现优化 
 #### a). 考虑到SM2用C 语言来做比较复杂，大家看可以考虑用python来做 sm2的 基础实现以及各种算法的改进尝试
