@@ -60,7 +60,7 @@
 
 
 ## Project 4: SM3的软件实现与优化 
-## a）：与Project 1类似，从SM3的基本软件实现出发，参考付勇老师的PPT，不断对SM3的软件执行效率进行改进
+#### a）：与Project 1类似，从SM3的基本软件实现出发，参考付勇老师的PPT，不断对SM3的软件执行效率进行改进
 - 采用的优化措施如下表：
   
 | 优化措施                | 说明                                                                 | 性能提升效果                     |
@@ -78,5 +78,5 @@
 - 测试结果如下图所示，优化措施并未改变SM3算法的正确性，并且可以观察到，优化措施使SM3算法速度提高了近一倍。
 <img width="600" height="344" alt="5a74fed9ea130615793bbd1263efef8b" src="https://github.com/user-attachments/assets/c564ffa3-ea2f-46dc-93cb-cba1a5e2b1d5" />
 
-## b）：基于sm3的实现，验证length-extension attack（未完成）
-## c）：基于sm3的实现，根据RFC6962构建Merkle树（10w叶子节点），并构建叶子的存在性证明和不存在性证明（未完成）
+#### b）：基于sm3的实现，验证length-extension attack（未完成）
+#### c）：基于sm3的实现，根据RFC6962构建Merkle树（10w叶子节点），并构建叶子的存在性证明和不存在性证明（未完成）
