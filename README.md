@@ -16,7 +16,7 @@
 - 使用T-table优化sm4思路：将S盒变换与后续的循环移位变换L进行合并，定义四个8bit-->32bit查找表。
 - 使用AESNI优化sm4思路：使用SIMD指令进行多个分组数据的并行处理，并使用AESENCLAST实现SM4的S盒变换（借助有限域的同构映射）。
 - sm4未优化，使用T-table优化sm4，使用T-table优化sm4三者测试得到时间如下图：
-  <img width="640" height="345" alt="image" src="https://github.com/user-attachments/assets/1fdb0677-64f7-4c34-bbf8-904a4e5b7fa9" />
+<img width="640" height="345" alt="image" src="https://github.com/user-attachments/assets/1fdb0677-64f7-4c34-bbf8-904a4e5b7fa9" />
 - 结果分析表格如下：
   
 |                | sm4未优化 | T-table优化sm4 | AESNI优化sm4 |
@@ -76,7 +76,7 @@
 | **并行计算**            | 在每轮中并行处理SS1/SS2和TT1/TT2                                     | 更好地利用CPU流水线              |
 
 - 测试结果如下图所示：
-  <img width="881" height="344" alt="5a74fed9ea130615793bbd1263efef8b" src="https://github.com/user-attachments/assets/c564ffa3-ea2f-46dc-93cb-cba1a5e2b1d5" />
+<img width="600" height="344" alt="5a74fed9ea130615793bbd1263efef8b" src="https://github.com/user-attachments/assets/c564ffa3-ea2f-46dc-93cb-cba1a5e2b1d5" />
 
 ## b）：基于sm3的实现，验证length-extension attack（未完成）
 ## c）：基于sm3的实现，根据RFC6962构建Merkle树（10w叶子节点），并构建叶子的存在性证明和不存在性证明（未完成）
