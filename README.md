@@ -90,6 +90,6 @@
 ## Project 5: SM2的软件实现优化 
 #### a). 考虑到SM2用C 语言来做比较复杂，大家看可以考虑用python来做 sm2的 基础实现以及各种算法的改进尝试
 #### b). 20250713-wen-sm2-public.pdf 中提到的关于签名算法的误用 分别基于做poc验证，给出推导文档以及验证代码（❌ 未完成）
-#### c). 伪造中本聪的数字签名（❌ 未完成）<br>
-## Project 6:  Google Password Checkup验证
+#### c). 伪造中本聪的数字签名（❌ 未完成）<br><br>
+## Project 6:  Google Password Checkup验证（❌ 未完成）
 #### 来自刘巍然老师的报告  google password checkup，参考论文 https://eprint.iacr.org/2019/723.pdf 的 section 3.1 ，也即 Figure 2 中展示的协议，尝试实现该协议，（编程语言不限）。
