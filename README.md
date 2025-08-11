@@ -101,7 +101,7 @@
 
 - 测试结果如下两图所示，优化措施并未改变SM2算法的正确性，并且可以观察到，优化措施使SM2算法速度提高了近一倍。
   <img width="830" height="280" alt="image" src="https://github.com/user-attachments/assets/c5631028-957d-4e45-8845-66eec24204f1" />
-  <img width="880" height="330" alt="image" src="https://github.com/user-attachments/assets/4abb3e19-f862-464f-9c4c-92020a1c6568" />
+  <img width="890" height="340" alt="image" src="https://github.com/user-attachments/assets/4abb3e19-f862-464f-9c4c-92020a1c6568" />
 
   
 #### b). 20250713-wen-sm2-public.pdf 中提到的关于签名算法的误用 分别基于做poc验证，给出推导文档以及验证代码（❌ 未完成）
