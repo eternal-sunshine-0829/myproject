@@ -99,7 +99,7 @@
 | **验签点加合并**        | sm2_verify()中合并计算sG+tP，共享中间变量                               | 验签运算从2组独立点乘510D+254A优化为255D+170A                  |
 | **ZA哈希预处理**       | 传入预计算的ZA值                                                        | 可减少重复哈希计算，需外部维护ZA缓存                                       |
 
-- 测试结果如下两图所示，优化措施并未改变SM2算法的正确性，并且可以观察到，优化措施使SM2算法速度提高了近一倍。
+- 测试结果如下两图所示，优化措施并未改变SM2算法的正确性，并且可以观察到，优化措施使SM2算法中密钥生成，签名和验证过程的性能大幅提高。
   <img width="830" height="280" alt="image" src="https://github.com/user-attachments/assets/c5631028-957d-4e45-8845-66eec24204f1" />
   <img width="890" height="340" alt="image" src="https://github.com/user-attachments/assets/4abb3e19-f862-464f-9c4c-92020a1c6568" />
 
