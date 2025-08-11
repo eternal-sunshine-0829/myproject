@@ -100,6 +100,9 @@
 | **ZA哈希预处理**       | 传入预计算的ZA值                                                        | 可减少重复哈希计算，需外部维护ZA缓存                                       |
 
 - 测试结果如下图所示，优化措施并未改变SM2算法的正确性，并且可以观察到，优化措施使SM2算法速度提高了近一倍。
+  <img width="1671" height="555" alt="image" src="https://github.com/user-attachments/assets/c5631028-957d-4e45-8845-66eec24204f1" />
+  <img width="1819" height="536" alt="image" src="https://github.com/user-attachments/assets/4abb3e19-f862-464f-9c4c-92020a1c6568" />
+
   
 #### b). 20250713-wen-sm2-public.pdf 中提到的关于签名算法的误用 分别基于做poc验证，给出推导文档以及验证代码（❌ 未完成）
 #### c). 伪造中本聪的数字签名（❌ 未完成）<br><br>
